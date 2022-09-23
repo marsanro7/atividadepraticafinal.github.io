@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+			
+						
+			
+			header{
+				display: block;
+				width: 100%;
+				border: 3px solid white;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+				background-color: #3e111a;
+				margin: 10px auto 2px auto;
+				height: 190px;
+			}
+			header img{
+				position: absolute;
+				left: 520px;
+				top: 20px;
+			}
+			nav{
+				position: relative;
+				border: 1px solid white;
+				background-color: black;
+				height: 30px;
+				top: 190px;
+			}	
+			
+			nav a{
+				position: absolute;
+				text-transform: uppercase;
+				color: white;
+				top: 10px;
+				left: 1280px;
+				text-decoration: none;
+				font-weight: bold;
+			}
+			section{
+				display: block;
+				width: 100%;
+				margin: 35px auto 0px auto;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: #d0b7c0;
+				box-sizing: border-box;
+			}	
+			section p{
+				font-family: serif, calibri;
+				text-align: justify;
+				text-indent: 10px;				
+			}
+			section img{
+				position: relative;
+				border: 3px solid #715d64;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+			}
+			article#paragrafo1{
+				position: relative;
+				left: 250px;
+			}	
+			article#paragrafo1 p{
+				position: relative;
+				left: 320px;
+				top: -200px;
+			}
+			
+			article#paragrafo2{
+				position: relative;
+				left: 720px;
+				top: -50px;
+			}	
+			article#paragrafo2 p{
+				position: relative;
+				left: -470px;
+				top: -200px;
+				padding-right: 20px;
+			}
+			
+			article#paragrafo3{
+				position: relative;
+				left: 250px;
+				top: -130px;
+			}	
+			article#paragrafo3 p{
+				position: absolute;
+				width: 650px;
+				left: 330px;
+				top: -20px;
+			}
+			
+			article#maisfotos{
+				position: relative;
+				left: 10px;
+				top: -100px;
+			}
+			article#maisfotos figure.foto2{
+				position: absolute;
+				left: 350px;
+				top: 25px;
+			}
+			
+			footer{
+				border: 3px solid white;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+				background-color: #3e111a;
+				margin: 0px auto 0px auto;
+				height: 100px;
+			}
+			footer p{
+				color: white;
+				text-align: center;
+			}	
+			
+
